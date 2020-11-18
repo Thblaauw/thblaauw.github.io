@@ -1,4 +1,8 @@
 /*border: 2px solid var(--themeDotBorder);*/
+html, body{
+	padding: 0;
+	margin: 0;
+}
 
 .post-nav{
 	display: table;
@@ -64,6 +68,8 @@
 
 .main-container{
 	margin-top: 45px;
+	margin: 0 auto;
+	width: 100%;
 }
 
 .main-container h3{
@@ -75,4 +81,10 @@
 	max-height: 500px;
 	padding: 40px;
 	margin: 0 auto;
+}
+
+@media screen and (max-width: 1300px){
+	.main-container{
+		width: 95%;
+	}
 }

@@ -282,6 +282,12 @@ h6 {font-size: 16px;}
 	background-color: var(--previewShadow);
 }
 
+#skills li{
+	padding-top: 3px;
+	padding-bottom: 5px;
+	
+}
+
 .links{
 	display: grid;
 	width: 100%;
